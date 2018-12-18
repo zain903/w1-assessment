@@ -9,31 +9,107 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <This header file is part of a C program that performs analytics on a given array with given size.>
  *
- * <Add Extended Description Here>
+ * <This file contains function definition for this C program. It has definitions for functions which find the maximum, minimum, mean, and median of the given array. In addition, a function also reorders this data set from large to small>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Zain Mustafa>
+ * @date <18-12-18>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
-
+int find_median(int *ptr, int count);
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief This function calculates the median of the data stored in an array of given size
  *
  * <Add Extended Description Here>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return The median value of the data stored in the given array
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+int find_mean(int *ptr, int count);
+/**
+ * @brief This function calculates the mean of the data stored in an array of given size
  *
- * @return <Add Return Informaiton here>
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return The mean value of the data stored in the given array
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+int find_maximum(int *ptr, int count)
+/**
+ * @brief This function calculates the maximum of the data stored in an array of given size
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return The maximum value of the data stored in the given array
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+int find_minimum(int *ptr, int count);
+/**
+ * @brief This function calculates the minimum of the data stored in an array of given size
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return The minimum value of the data stored in the given array
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+void print_statistics(int *ptr, int count);
+/**
+ * @brief This function prints out the analytics performed on the data stored in the given array
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return nothing, the function type is void
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+void print_array(int *ptr, int count);
+/**
+ * @brief This function prints out the given array
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return nothing, the function type is void
+ */
+
+/* Add Your Declarations and Function Comments here */ 
+void sort_array(int *ptr, int count)
+/**
+ * @brief This function sorts the given array in the order of largest to lowest
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ptr a pointer variable which points to the starting address of the first element of the given array
+ * @param count <add description here>
+ * 
+ * @return nothing, the function type is void
  */
 
 

@@ -36,8 +36,34 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+unsigned char *ptr;
+uint m, n, o;
   /* Statistics and Printing Functions Go Here */
-
+print_array(ptr, n);
+sort_array(ptr, m);
+print_statistics(ptr, o);
+	
 }
 
 /* Add other Implementation File Code Here */
+void sort_array(int *ptr, int count)
+{
+}
+void print_array(int *ptr, int count)
+{
+}
+void print_statistics(int *ptr, int count)
+{
+	int find_median(int *ptr, int count)
+	{
+	}
+	int find_mean(int *ptr, int count)
+	{
+	}
+	int find_maximum(int *ptr, int count)
+	{
+	}
+	int find_minimum(int *ptr, int count)
+	{
+	}
+}
