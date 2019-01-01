@@ -22,7 +22,7 @@
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
-int find_median(int *ptr, int count);
+unsigned char find_median(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function calculates the median of the data stored in an array of given size
  *
@@ -35,7 +35,7 @@ int find_median(int *ptr, int count);
  */
 
 /* Add Your Declarations and Function Comments here */ 
-int find_mean(int *ptr, int count);
+unsigned char find_mean(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function calculates the mean of the data stored in an array of given size
  *
@@ -48,7 +48,7 @@ int find_mean(int *ptr, int count);
  */
 
 /* Add Your Declarations and Function Comments here */ 
-int find_maximum(int *ptr, int count)
+unsigned char find_maximum(unsigned char *ptr);
 /**
  * @brief This function calculates the maximum of the data stored in an array of given size
  *
@@ -61,7 +61,7 @@ int find_maximum(int *ptr, int count)
  */
 
 /* Add Your Declarations and Function Comments here */ 
-int find_minimum(int *ptr, int count);
+unsigned char find_minimum(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function calculates the minimum of the data stored in an array of given size
  *
@@ -74,7 +74,7 @@ int find_minimum(int *ptr, int count);
  */
 
 /* Add Your Declarations and Function Comments here */ 
-void print_statistics(int *ptr, int count);
+void print_statistics(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function prints out the analytics performed on the data stored in the given array
  *
@@ -87,7 +87,7 @@ void print_statistics(int *ptr, int count);
  */
 
 /* Add Your Declarations and Function Comments here */ 
-void print_array(int *ptr, int count);
+void print_array(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function prints out the given array
  *
@@ -100,7 +100,7 @@ void print_array(int *ptr, int count);
  */
 
 /* Add Your Declarations and Function Comments here */ 
-void sort_array(int *ptr, int count)
+void sort_array(unsigned char *ptr, unsigned int count);
 /**
  * @brief This function sorts the given array in the order of largest to lowest
  *
